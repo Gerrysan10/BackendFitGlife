@@ -6,7 +6,7 @@ import authRoutes from './routes/auth.routes.js'
 import dataRoutes from './routes/data.routes.js';
 const app = express();
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: 'https://client-fit-g-life.vercel.app'
 }))
 
 app.use(morgan('dev'));
